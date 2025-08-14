@@ -1,0 +1,90 @@
+*{/* O (*) indica a chamada do global */
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0; /*Parte de fora do objeto pai*/ 
+    padding: 0; /*Parte de dentro do objeto pai*/
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0b0e14;
+    color: #ffffff;
+    padding: 50px;
+}
+.banner {
+    background:url("destes\ de\ sabre.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    border-radius: 10px;
+    padding: 60px;
+    text-align: center; 
+}
+    
+.banner p{
+    margin: 5px 0 0;
+    color: #d9e6ff;
+}
+
+.destaque{
+    color: #0a7cff;
+}
+
+#especial {
+    background-color: #6c81b5;
+    padding:  5px;
+    border-radius: 10px; /* Arredonda os cantos*/
+    width: 500px; /* A largura */
+}
+
+img {
+    max-width: 50%;
+    border-radius: 8px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px;
+   
+}
+
+th, td {
+    border: 1px solid #1a2030;
+    padding : 8px;
+}
+
+th {
+    background-color: #101522;
+}
+
+.botao {
+    background-color: #0a7cff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    color: #ffffff;
+}
+
+.botao:hover {
+    cursor: pointer;
+    background-color: #005bb5;
+}
+
+    /*
+    background-color: aqua;
+    margin: 50px 30px 20px 10px;
+    padding: 50px;
+
+
+    a mesma coisa, so que otimisado
+
+    > margin: 50px 30px 20px 10px;
+
+    ==
+
+    margin-top: 50px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    */
