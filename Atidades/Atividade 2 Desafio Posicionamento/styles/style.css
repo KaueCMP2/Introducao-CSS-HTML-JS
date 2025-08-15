@@ -1,0 +1,90 @@
+body {
+    background-color: rgb(255, 245, 232);
+
+}
+
+.fantasma {
+    width: 180px;
+}
+
+.div-flex {
+    background-color: rgba(0, 255, 255, 0.507);
+    display: flex;
+    border-radius: 60px;
+    margin-bottom: 50px;
+}
+
+.linha1 {
+
+    justify-content: space-between;
+
+}
+
+.linha2 {
+
+    justify-content: space-around;
+
+}
+
+.centralizado {
+
+    justify-content: center;
+
+}
+
+.direita {
+
+    justify-content: flex-end;
+
+}
+
+.direita-amarelo {
+
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.amarelo {
+
+    background-color: yellow;
+
+    border-radius: 0px 60px 60px 0px;
+
+}
+
+.direita-amarelo2 {
+
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.amarelo2 {
+
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+    width: 960px;
+
+    border-radius: 0px 60px 60px 0px;
+
+}
+
+.direita-amarelo3F {
+
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.amarelo3 {
+
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+
+    border-radius: 0px 60px 60px 0px;
+
+}
