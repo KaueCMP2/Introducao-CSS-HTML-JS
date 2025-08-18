@@ -6,16 +6,28 @@
 }
 
 body{
-    background-color: black;
-    color: antiquewhite;
+    background-color: rgb(33, 33, 33);
+    color: rgb(255, 255, 255);
     padding: 50px;
 }
 
-.banner{
-    background:url("destes\ de\ sabre.jpg");
-    background-position: top center;
+    h1{
+        color: rgb(232, 151, 2);
+        font-size: 3em;
+    }
+    h3{
+        font-size: 2em;
+    }
 
-    border: 30px 20px;
-    padding: 50px;
+    
+
+.banner{
+    background:url("Imagem\ HTML\(1\).png");
+    background-position: center;
+    background-repeat: repeat;
+    border-radius: 50px;
+
+    border: 30px;
+    padding: 100px;
 
 }

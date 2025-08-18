@@ -1,0 +1,126 @@
+body {
+
+    background-color: rgb(255, 245, 232);
+
+}
+
+.fantasma {
+
+    width: 180px;
+}
+
+.iconCenter {
+
+    background-color: yellow;
+
+}
+
+
+.div-flex {
+
+    background-color: rgba(0, 255, 255, 0.507);
+    display: flex;
+    margin-bottom: 50px;
+
+}
+
+.border {
+
+    border-radius: 60px;
+}
+
+.linha1 {
+
+    justify-content: space-between;
+
+}
+
+.linha2 {
+
+    justify-content: space-around;
+
+}
+
+.centralizado {
+
+    justify-content: center;
+
+}
+
+.direita {
+
+    justify-content: flex-end;
+
+}
+
+.direita-amarelo {
+
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.direita-amarelo2 {
+
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.amarelo {
+
+    background-color: yellow;
+
+}
+
+.amarelo2 {
+
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+    width: 960px;
+
+}
+
+.amarelo3 {
+
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.amarelo4 {
+
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.coluna {
+
+    flex-direction: column;
+    align-items: start;
+    height: 960px;
+}
+
+
+.group {
+
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 960px;
+   
+}
+
+.pink {
+
+    background-color: pink;
+    justify-content: space-between;
+    display: flex;
+}
+
