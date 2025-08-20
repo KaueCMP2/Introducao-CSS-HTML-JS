@@ -119,8 +119,8 @@ body {
 
 .pink {
 
+    display: flex;
     background-color: pink;
     justify-content: space-between;
-    display: flex;
 }
 
