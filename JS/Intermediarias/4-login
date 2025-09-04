@@ -1,0 +1,8 @@
+let usuario = prompt("digite o usuario")
+let senha = prompt("digite a senha")
+
+if (usuario == "admim" && senha == "admim")
+    alert("Login efetuado com sucesso")
+
+else
+    alert("Usuario ou senha incorretos")
