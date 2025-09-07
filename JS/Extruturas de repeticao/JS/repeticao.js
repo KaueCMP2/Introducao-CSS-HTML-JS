@@ -1,8 +1,9 @@
 //! FOR
-//? contando de 1 ate 3
+//? contando de 1 ate 3=
 // let n = parseInt(prompt("digite um numero: "))
-// //* Valor inicial  condicionador e resutado
-// for(let i = 1;      i <=n;         i++){
+
+//* Valor inicial    condicionador   e resutado
+// for(let i = 1;        i <=n;          i++){
 //     console.log(i)
 // }
 
@@ -21,7 +22,7 @@
 // console.log("A soma total dos 10 numeros e: " + soma)
 
 //! Do / WHILE
-//TODO => Garante a execulsao pelo menos uma vez
+//? => Garante a execulsao pelo menos uma vez
 // let numero = 1
 
 // do { 
@@ -30,7 +31,7 @@
 // }   while (numero <=5) //TODO => enquanto for menor que 5
 
 //! FOREACH
-//TODO => percorre uma linha definida pelo arrey
+//? => percorre uma linha definida pelo arrey
 let numeros = [1, 2, 3, 4, 5]
 numeros.forEach(function (numero) {
     console.log("Numero: " + numero)
