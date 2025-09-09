@@ -22,7 +22,7 @@
 // console.log("A soma total dos 10 numeros e: " + soma)
 
 //! Do / WHILE
-//? => Garante a execulsao pelo menos uma vez
+//? => Garante a execusao pelo menos uma vez
 // let numero = 1
 
 // do { 

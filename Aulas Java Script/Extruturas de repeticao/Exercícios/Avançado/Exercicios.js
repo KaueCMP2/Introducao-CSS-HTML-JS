@@ -1,92 +1,3 @@
-//! exercicio 1 basico
-//? => Contagem de 1 a 10
-// let numero = 10
-
-// for(let i = 0; i <= numero; i++)
-// {
-//     console.log("Contando: " + i)
-// }
-
-//! exercicio 2 basico
-//? => Tabuada de um número
-// let numeroDig = prompt("digite um numero")
-// numeroDig = parseFloat(numeroDig)
-
-// for(let i = 0; i <= 10; i++)
-// {
-//     let resultado = i * numeroDig;
-//     console.log("O resultado e: " + resultado)
-// }
-
-//! exercicio 3 basico
-//? => Soma dos primeiros N números naturais
-// let numeroDig = Number(prompt("Digite um numero"))
-// let i = 1;
-// let soma = 0;
-
-// while(i <= numeroDig){
-//     soma += i
-//     console.log("O numero atual: " + soma)
-//     i++
-// }
-
-//! exrcicio 1 Intermediário
-//? => Exibir os números pares de 1 a 50
-//todo Resolução 1 (Nao pula o 0 sem pedir)
-// let numP = 50;
-
-// for (let i = 0; i <= numP; i++) {
-//     if (!(i % 2) && i > 0)
-//         console.log("numero: " + i)
-// }
-
-//! exrcicio 1 Intermediário
-//? => Exibir os números pares de 1 a 50
-//todo Resolução 2 (ja comeca do 2 e e mais compacto)
-// let numP = 50;
-
-// for (let i = 2; i <= numP; i += 2) {
-//     console.log("Numero: " + i)
-// }
-
-
-//! exrcicio 2 Intermediário
-//? => Jogo de adivinhação
-//todo Resolução 1 (Sem numeros aleatorios, como seria)
-// let palpite = Number(prompt("De um palpite"))
-// let numeroCorreto = 21
-// let aviso = 0;
-
-// while (numeroCorreto !== palpite) {
-//     console.log("Tentativa: " + aviso++)
-//     palpite = Number(prompt("tente novamente"))
-// }
-
-// alert("Voce acertou, na tentativa: " + aviso)
-
-//! exrcicio 2 Intermediário
-//? => Jogo de adivinhação
-//todo Resolução 2 (Com numeros aleatorios)
-// let numeroCorreto = Math.floor(Math.random() * 100) + 1
-// alert(numeroCorreto) && console.log(numeroCorreto)
-// let palpite = Number(prompt("Digite um numero e teste sua sorte"))
-// let aviso = 0
-
-// while (numeroCorreto !== palpite) {
-//     console.log("Tentativa" + aviso++)
-//     palpite = Number(prompt("Errou, tente novamente"))
-// } 
-// alert("Parabens!!! voce acertou em " + aviso) 
-
-//! exrcicio 3 Intermediário
-//? => Contagem regressiva
-// let numero = Number(prompt("Digite o numero para a contagem"))
-
-// while (numero >= 0)
-// {
-//     console.log(numero--);
-// }
-
 //! exrcicio 1 avançado
 //? => Soma dos dígitos de um número
 //TODO Resolução 1 (codigo longo e baguncado)
@@ -189,7 +100,7 @@
 
 //! exercicio 4 avaçado
 //? Números perfeitos de 1 a 1000
-//todo Resolução 1
+//todo Resolução 1 (Incompleto)
 let numero = 6
 let somaDivisores = 0
 
@@ -198,3 +109,5 @@ for (let i = 1; i <= 1000; i++) {
         somaDivisores = somaDivisores + i;
     }
 }
+
+//? --------------------------------------------------------------
