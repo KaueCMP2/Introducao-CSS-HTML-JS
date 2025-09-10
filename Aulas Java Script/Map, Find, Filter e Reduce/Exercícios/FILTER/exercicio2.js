@@ -1,4 +1,4 @@
-//! Filter
+//! FILTER
 //? => palavras com menos de (4) letras
 const palavras = ["sol", "mar", "computador", "lua", "código"];
 

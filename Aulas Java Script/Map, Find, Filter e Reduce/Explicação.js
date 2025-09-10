@@ -76,13 +76,13 @@ console.log(mensagems);
 //! REDUCE
 //?Reduz array um único valor
 
-//? => Somar todos os números do array
+// //? => Somar todos os números do array
 // const numerosParaSomar = [1, 2, 3, 4, 5];
 
 // const somaTotal = numerosParaSomar.reduce((acumulador, numero) => acumulador + numero, 0);
 // console.log(somaTotal);
 
-//? => Contar frequencia de palavras
+// //? => Contar frequencia de palavras
 // const palavras = ["Maçã", "Banana", "Maçã", "Laranja", "Banana", "Maçã"]
 
 // const contagem = palavras.reduce((acumulador, palavra) => {
@@ -93,13 +93,13 @@ console.log(mensagems);
 // console.log(contagem)
 
 
-//? => Calcular notas media de notas 
+// //? => Calcular notas media de notas 
 // const notas= [7, 8, 9, 6, 10]
 // const media = notas.reduce((total, nota) => total + nota, 0) / notas.length
 
 // console.log(media)
 
-//? => Uso combinado
+// //? => Uso combinado
 // const usuarios = [
 //     { id: 1, nome: " Alice", idade: 25 },
 //     { id: 2, nome: " Bob", idade: 30 },

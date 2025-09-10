@@ -1,5 +1,4 @@
-
-//! Filter
+//! FILTER
 //? => Animais com letra (C)
 const animais = ["gato", "cachorro", "peixe", "elefante", "abelha"];
 

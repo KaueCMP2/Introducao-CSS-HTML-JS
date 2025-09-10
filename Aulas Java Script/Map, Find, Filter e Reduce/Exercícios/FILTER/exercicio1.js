@@ -1,4 +1,4 @@
-//! Filter
+//! FILTER
 //? => Notas maiores que (7)
 const notas = [4, 7, 9, 3, 10, 5];
 
