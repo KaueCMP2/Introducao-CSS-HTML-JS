@@ -4,7 +4,7 @@
 // let numP = 50;
 
 // for (let i = 0; i <= numP; i++) {
-//     if (!(i % 2) && i > 0)
+//     if (!(i % 2))
 //         console.log("numero: " + i)
 // }
 
@@ -17,16 +17,17 @@
 //     console.log("Numero: " + i)
 // }
 
+//? --------------------------------------------------------------
 
 //! exrcicio 2 Intermediário
 //? => Jogo de adivinhação
-//todo Resolução 1 (Sem numeros aleatorios, como seria)
+//todo Resolução 1 Teste (Sem numeros aleatorios, como seria)
 // let palpite = Number(prompt("De um palpite"))
 // let numeroCorreto = 21
 // let aviso = 0;
 
 // while (numeroCorreto !== palpite) {
-//     console.log("Tentativa: " + aviso++)
+//     console.log("Errou, tentativa: " + aviso++)
 //     palpite = Number(prompt("tente novamente"))
 // }
 
@@ -35,7 +36,7 @@
 //! exrcicio 2 Intermediário
 //? => Jogo de adivinhação
 //todo Resolução 2 (Com numeros aleatorios)
-// let numeroCorreto = Math.floor(Math.random() * 100) + 1
+// let numeroCorreto = Math.floor(Math.random() * 100) 
 // alert(numeroCorreto) && console.log(numeroCorreto)
 // let palpite = Number(prompt("Digite um numero e teste sua sorte"))
 // let aviso = 0
@@ -45,6 +46,8 @@
 //     palpite = Number(prompt("Errou, tente novamente"))
 // } 
 // alert("Parabens!!! voce acertou em " + aviso) 
+
+//? --------------------------------------------------------------
 
 //! exrcicio 3 Intermediário
 //? => Contagem regressiva
